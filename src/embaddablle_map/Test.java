@@ -15,7 +15,7 @@ public class Test
 		Session session=HibernateUtil.getSessionFactory().openSession();
 		
 		Student stu= new Student();
-		/*stu.setRollno(26);*/
+		
 		stu.setName("VIPIN");
 		
 		Address adr= new Address();
