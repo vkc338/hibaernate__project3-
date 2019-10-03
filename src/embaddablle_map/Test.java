@@ -22,7 +22,9 @@ public class Test
 		adr.setCityname("Pune");
 		adr.setAreaname("WARJE");
 		
-		
+		/*Address ad1= new Address();
+		ad1.setCityname("Mumbai");
+		ad1.setAreaname("Kharghar");*/
 		
 		Set<Address> s= new HashSet<>();
 		s.add(adr);
